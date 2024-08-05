@@ -1,0 +1,7 @@
+list = [1, 3, 2, 4, 5, 12, 3, 5, 2]
+printed = set()
+for i in list:
+    if i not in printed:
+        b = list.count(i)
+        print(i, " count value is ", b)
+        printed.add(i)
